@@ -1,0 +1,25 @@
+{
+  "name": "learn-backend",
+  "version": "1.0.0",
+  "description": "learn-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc; node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotuankn1/learn-backend.git"
+  },
+  "author": "hotuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotuankn1/learn-backend/issues"
+  },
+  "homepage": "https://github.com/hotuankn1/learn-backend#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
